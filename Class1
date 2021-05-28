@@ -1,0 +1,17 @@
+using System;
+
+namespace MevLogger
+{
+    public class Mev
+    {
+        public void MevLog(string text)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(text);
+
+            }
+
+        }
+    }
+}
